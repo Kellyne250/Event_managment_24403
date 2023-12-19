@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/astyle.css}" />
+  <title>Welcome</title>
+<!--  <style>-->
+<!--&lt;!&ndash;    body{ margin: 0px; }&ndash;&gt;-->
+<!--    .box{-->
+<!--      display: flex;-->
+<!--      justify-content: space-between;-->
+<!--      width: 100%;-->
+<!--      height: 100px;-->
+<!--      background:black;-->
+<!--      align-items: center; }-->
+<!--    .logo h1{-->
+<!--      font-family: 'Prototype';-->
+<!--      color: white;-->
+<!--      margin-right: 500px;-->
+<!--      }-->
+<!--    .nav{ font-family: 'Prototype'; }-->
+<!--    .nav a{-->
+<!--      text-decoration:  none;-->
+<!--      color: white;-->
+<!--      font-size: 15px; }-->
+<!--    .nav ul, li{-->
+<!--      justify-content: center;-->
+<!--      display: flex;-->
+<!--      padding-right: 15px;-->
+<!--      color: white; }-->
+<!--    .nav li a:hover{-->
+<!--      color: #ffba19;-->
+<!--      font-size: 18px;}-->
+<!--    .box2{-->
+<!--      display: flex;-->
+<!--      justify-content: space-between;-->
+<!--      width: 100%;-->
+<!--      height: 600px;-->
+<!--      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/istockphoto.jpg);-->
+<!--&lt;!&ndash;      background-color: #607D8B;&ndash;&gt;-->
+<!--    }-->
+<!--     .isi2 h1{-->
+<!--      font-size: 70px;-->
+<!--      width: 50px;-->
+<!--      text-align: center;-->
+<!--      font-family: 'Prototype';-->
+<!--      margin-left: -750px;-->
+<!--      margin-top: 150px;-->
+<!--      color: white;-->
+<!--&lt;!&ndash;      text-shadow: black 2px 5px 5px;&ndash;&gt;-->
+<!--      }-->
+
+<!--  </style>-->
+</head>
+<body>
+<div class="box">
+  <div class="logo">
+    <h1>Event Managment System</h1>
+  </div>
+  <nav class="nav">
+    <ul>
+      <li><a th:href="@{/home}">Events</a></li>
+      <li><a th:href="@{/ticket}">Tickets</a></li>
+<!--      <li><a th:href="@{/registration}">Register</a></li>-->
+      <li><a th:href="@{/index}">Logout</a></li>
+
+    </ul>
+  </nav>
+</div>
+<div class="box2">
+  <div class="isi">
+
+    <center><font color="white" size="14"></font></center>
+  </div>
+  <div class="isi2">
+    <h1>Admin Portal</h1>
+<!--    <button class="button">Get In Touch</button>-->
+  </div>
+
+</div>
+</div>
+</body>
+</html>

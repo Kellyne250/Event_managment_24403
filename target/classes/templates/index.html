@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+    <title>Home</title>
+<!--    <style>-->
+<!--body{-->
+<!--  margin: 0px;-->
+<!--&lt;!&ndash;    background: url("https://images.app.goo.gl/9pESShN25cQED73R7");&ndash;&gt;-->
+<!--&lt;!&ndash;    background-repeat: no-repeat;&ndash;&gt;-->
+<!--&lt;!&ndash;    background-position: center;&ndash;&gt;-->
+<!--&lt;!&ndash;    background-size: cover;&ndash;&gt;-->
+<!--   }-->
+<!-- .box{-->
+<!--      display: flex;-->
+<!--      justify-content: space-between;-->
+<!--      width: 100%;-->
+<!--      height: 100px;-->
+<!--      background:black;-->
+<!--      align-items: center; }-->
+<!--    .logo h1{-->
+<!--      font-family: 'Prototype';-->
+<!--      color: white;-->
+<!--      margin-right: 500px;-->
+<!--      }-->
+<!--    .nav{ font-family: 'Prototype'; }-->
+<!--    .nav a{-->
+<!--      text-decoration:  none;-->
+<!--      color: white;-->
+<!--      font-size: 15px; }-->
+<!--    .nav ul, li{-->
+<!--      justify-content: center;-->
+<!--      display: flex;-->
+<!--      padding-right: 15px;-->
+<!--      color: white; }-->
+<!--    .nav li a:hover{-->
+<!--      color: #ffba19;-->
+<!--      font-size: 18px;}-->
+<!--    .box2{-->
+<!--      display: flex;-->
+<!--      justify-content: space-between;-->
+<!--      width: 100%;-->
+<!--      height: 600px;-->
+<!--      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/istockphoto.jpg);-->
+<!--&lt;!&ndash;      background-color: #607D8B;&ndash;&gt;-->
+<!--    }-->
+<!--.text-box{-->
+<!--    width: 90%;-->
+<!--    color: #fff;-->
+<!--    position: absolute;-->
+<!--    top: 50%;-->
+<!--    left: 45%;-->
+<!--    transform: translate(-50%,-50%);-->
+<!--    text-align: center;-->
+
+<!--}-->
+<!--.text-box h1{-->
+<!--    font-size: 49px;-->
+<!--    margin-right: -200px;-->
+
+
+<!--}-->
+<!--.text-box p{-->
+<!--    margin: 10px 0 40px;-->
+<!--    font-size: 18px;-->
+<!--    margin-right: -200px;-->
+<!--    color: #fff;-->
+<!--    text-position:center;-->
+<!--}-->
+<!--.Hero-btn{-->
+<!--    display: inline-block;-->
+<!--    text-decoration: none;-->
+<!--    color: #fff;-->
+<!--    margin-right: -200px;-->
+<!--    border: 1px solid #fff;-->
+<!--    padding: 12px 34px;-->
+<!--    font-size: 13px;-->
+<!--    background: transparent;-->
+<!--    position: relative;-->
+<!--    cursor: pointer;-->
+
+<!--}-->
+<!--.Hero-btn:hover {-->
+<!--    border: 1px solid #f44336;-->
+<!--    background: #f44336;-->
+<!--    transition: 1s;-->
+<!--}-->
+<!--@media(max-width: 700px){-->
+<!--    .text-box h1{-->
+<!--        font-size: 20px;-->
+<!--        margin-left: 10px;-->
+<!--    }-->
+<!--    .text-box p{-->
+<!--        margin: 10px 0 40px;-->
+<!--        font-size: 8px;-->
+<!--        color: #fff;-->
+<!--    }-->
+<!--    .nav-links ul li{-->
+<!--        display: block-->
+<!--    }-->
+<!--    .nav-links{-->
+<!--        position: absolute;-->
+<!--        background: #f44336;-->
+<!--        height: 100vh;-->
+<!--        width: 200px;-->
+<!--        top: 0;-->
+<!--        right: 0;-->
+<!--        text-align: left;-->
+<!--        z-index: 2;-->
+<!--    }-->
+<!--&lt;!&ndash;.left{&ndash;&gt;-->
+<!--&lt;!&ndash;     linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));&ndash;&gt;-->
+<!--&lt;!&ndash;  }&ndash;&gt;-->
+
+
+<!--</style>-->
+</head>
+<body>
+<!--<body>-->
+  <div class="box">
+    <div class="logo">
+        <h1>Event Managment System</h1>
+    </div>
+    <nav class="nav">
+        <ul>
+            <li><a th:href="@{/login}">Login</a></li>
+            <li><a th:href="@{/Signup}">SignUp</a></li>
+
+        </ul>
+    </nav>
+  </div>
+
+    <div class="box2">
+    <div class="isi">
+        <center><font color="white" size="14"></font></center>
+    </div>
+    </div>
+  <div class="text-box">
+    <h1>World's Real Event Management</h1>
+    <p>We assure you to cover more events at right time just before others.</br>
+        join the one of biggest world community to keep you updated.
+    </p>
+    <a href="" class="Hero-btn"> Visit Us to know more</a>
+  </div>
+<!--  <div class="left">-->
+
+<!--      <img  th:src="@{/img/h.jpeg)}" width="700" height="600">-->
+<!--  </div>-->
+
+</body>
+</html>
